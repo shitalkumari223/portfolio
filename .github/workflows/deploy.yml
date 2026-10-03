@@ -28,7 +28,7 @@ jobs:
       - name: Upload Portfolio
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './eclipse-workspace/portfolio/src/main/webapp'
+          path: 'eclipse-workspace/portfolio/src/main/webapp'
 
       - name: Deploy to GitHub Pages
         id: deployment
